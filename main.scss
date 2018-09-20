@@ -24,4 +24,14 @@ $info:          $icecream-green;
 $warning:       $candle-flame;
 $danger:        $confetti-red;
 
+.border-example {
+  span {
+    width:100px;
+    display: inline-block;
+    height: 100px;
+    background: #efefef;
+    margin-right:15px
+  }
+}
+
 @import "./node_modules/bootstrap/scss/bootstrap";
